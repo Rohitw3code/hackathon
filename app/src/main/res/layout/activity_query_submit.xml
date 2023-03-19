@@ -96,7 +96,7 @@
             style="@style/NormalText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/round_auth"
+            android:background="@drawable/button_round"
             android:padding="15sp"
             android:text="Submit Query"
             android:textSize="18sp" />

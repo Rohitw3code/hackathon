@@ -2,6 +2,7 @@
 <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
+    android:background="@drawable/background_gradient"
     android:layout_height="match_parent">
 
     <RelativeLayout
@@ -12,7 +13,7 @@
             android:id="@+id/home_linear_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/black3"
+            android:background="@drawable/background_gradient"
             android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
@@ -32,6 +33,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     app:lottie_autoPlay="true"
+                    android:background="@drawable/round_card"
                     app:lottie_loop="true"
                     app:lottie_rawRes="@raw/graph" />
 
@@ -64,7 +66,7 @@
                             android:layout_height="70sp"
                             android:layout_marginHorizontal="5sp"
                             android:layout_marginVertical="15sp"
-                            android:background="@drawable/round_gray"
+                            android:background="@color/navbar"
                             android:padding="5sp">
 
                             <TextView
@@ -76,12 +78,11 @@
                                 android:layout_marginTop="10sp"
                                 android:layout_marginEnd="10sp"
                                 android:layout_marginBottom="10sp"
-                                android:background="@drawable/round_blue"
-                                android:backgroundTint="#0581AA"
+                                android:background="@drawable/button_round"
                                 android:gravity="center"
                                 android:padding="8sp"
                                 android:text="Start Query"
-                                android:textColor="@color/white"
+                                android:textColor="@color/texts"
                                 android:textSize="18sp"
                                 android:textStyle="bold" />
 
@@ -113,7 +114,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="right"
                         android:layout_marginHorizontal="5sp"
-                        android:background="@drawable/round_gray"
+                        android:background="@drawable/button_round"
                         android:orientation="horizontal">
 
                         <TextView
@@ -121,7 +122,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:background="@drawable/round_auth"
+                            android:background="@drawable/button_round"
                             android:padding="10sp"
                             android:text="View All Developers"
                             android:textStyle="bold" />
@@ -231,6 +232,7 @@
             android:layout_width="match_parent"
             android:layout_height="300sp"
             app:lottie_autoPlay="true"
+            android:background=""
             app:lottie_rawRes="@raw/star" />
 
 
@@ -327,6 +329,7 @@
                     android:layout_marginBottom="10sp"
                     android:letterSpacing="0.1"
                     android:text="View All"
+                    android:textColor="@color/texts"
                     android:textSize="18sp" />
 
                 <ImageView

@@ -81,6 +81,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/navbar"
             android:layout_margin="2sp">
 
 
@@ -105,7 +106,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
                 android:src="@android:drawable/ic_menu_send"
-                app:tint="@color/teal_700" />
+                app:tint="@color/texts" />
 
 
         </RelativeLayout>
