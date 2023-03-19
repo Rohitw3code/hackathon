@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Laper</string>
+    <string name="username">laper</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="personal">Personal</string>
+    <string name="work">Work</string>
+    <string name="name">Rohit Kumar</string>
+    <string name="problem_statement">I am having an issue with Flask Deployment</string>
+    <string name="abc">hello</string>
+
+    <string name="loginregister"><![CDATA[< Login / Register >]]></string>
+
+    <!-- /side drawer-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <!-- Date Util -->
+    <string name="date_util_term_a">a</string>
+    <string name="date_util_unit_minute">minute</string>
+    <string name="date_util_unit_minutes">minutes</string>
+    <string name="date_util_unit_hour">hour</string>
+    <string name="date_util_unit_hours">hours</string>
+    <string name="date_util_unit_day">day</string>
+    <string name="date_util_unit_days">days</string>
+    <string name="date_util_unit_month">month</string>
+    <string name="date_util_unit_months">months</string>
+    <string name="date_util_unit_year">year</string>
+    <string name="date_util_unit_years">years</string>
+
+    <string name="date_util_prefix_about">about</string>
+    <string name="date_util_prefix_over">over</string>
+    <string name="date_util_prefix_almost">almost</string>
+    <string name="date_util_suffix">ago</string>
+
+    <string-array name="gender">
+        <item>male</item>
+        <item>female</item>
+        <item>rather not say</item>
+    </string-array>
+
+    <string name="problem_statements">Problem Statement\nExplain your problem , error , doubt briefly once you submit expert will contact you soon</string>
+
+
+</resources>

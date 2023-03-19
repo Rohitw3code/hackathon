@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "884295042717",
+    "firebase_url": "https://laper-6dbef-default-rtdb.firebaseio.com",
+    "project_id": "laper-6dbef",
+    "storage_bucket": "laper-6dbef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884295042717:android:5ceb07c7519528795af674",
+        "android_client_info": {
+          "package_name": "com.lapperapp.laper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884295042717-fs91aovludeg98s75htkt0a6fldpakv4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lapperapp.laper",
+            "certificate_hash": "9eca24f2030797c44337d7a1c9e25fed27af13eb"
+          }
+        },
+        {
+          "client_id": "884295042717-8sqrtojt60laudqaqdd12fn45hb28c5p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwhTWlQPtOlxJ4Y--rFHcMU9zdXM3KEx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884295042717-8sqrtojt60laudqaqdd12fn45hb28c5p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

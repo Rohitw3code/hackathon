@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".User.ProfileActivity">
+
+    <RelativeLayout
+        android:id="@+id/profile_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_card_edge"
+        android:backgroundTint="@color/black2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/profile_dev_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginHorizontal="10dp"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:id="@+id/relative_1"
+                android:layout_width="120sp"
+                android:layout_height="120sp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="50dp">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_width="120sp"
+                    android:layout_height="120sp"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/circle" />
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_dev_image_view"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/logo" />
+
+
+            </RelativeLayout>
+
+            <nl.joery.animatedbottombar.AnimatedBottomBar
+                android:id="@+id/profile_bottom_bar"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relative_1"
+                android:background="#FFF"
+                android:backgroundTint="@color/black2"
+                app:abb_badgeTextColor="@color/white"
+                app:abb_indicatorAppearance="round"
+                app:abb_indicatorColor="@android:color/holo_orange_light"
+                app:abb_indicatorHeight="5dp"
+                app:abb_indicatorMargin="10dp"
+                app:abb_rippleEnabled="true"
+                app:abb_selectedIndex="0"
+                app:abb_selectedTabType="icon"
+                app:abb_tabColor="@color/white"
+                app:abb_tabColorSelected="@android:color/holo_orange_light"
+                app:abb_tabs="@menu/profile_menu" />
+
+            <ImageView
+                android:id="@+id/profile_chat_section"
+                android:layout_width="35sp"
+                android:layout_height="35sp"
+                android:layout_below="@id/relative_1"
+                android:layout_alignParentRight="true"
+                android:layout_marginHorizontal="20sp"
+                android:layout_marginVertical="20sp"
+                android:src="@drawable/chat"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/profile_frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp" />
+
+
+</LinearLayout>
