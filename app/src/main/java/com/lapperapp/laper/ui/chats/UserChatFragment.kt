@@ -24,6 +24,7 @@ class UserChatFragment : Fragment() {
     private var auth = FirebaseAuth.getInstance()
     private val db = Firebase.firestore
     private var userRef = db.collection("users")
+    var expertRef = db.collection("experts")
     private lateinit var lottiChat: TextView
     val database = Firebase.database
     val chatRef = database.getReference("chats")
@@ -72,7 +73,7 @@ class UserChatFragment : Fragment() {
                         chatIds = chatIds + userId
                         val lastChatDate = userKey.child("lastChatDate").value as Long
                         val lastMessage = userKey.child("lastMessage").value.toString()
-                        userRef.document(userId)
+                        expertRef.document(userId)
                             .get().addOnSuccessListener { doc ->
                                 val uImageUrl = doc.get("userImageUrl").toString()
                                 val uName = doc.get("username").toString()
