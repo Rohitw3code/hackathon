@@ -29,4 +29,14 @@
     <color name="bottomBarInActive">#FF9800</color>
 
 
+    <color name="buttons">#6724f9</color>
+    <color name="navbar">#282842</color>
+    <color name="texts">#bdbecb</color>
+    <color name="special_color">#5508b7</color>
+    <color name="background">#6724f9</color>
+
+
+
+
+
 </resources>

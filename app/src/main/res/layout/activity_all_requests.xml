@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
     tools:context=".ui.dashboard.RequestReceived.ReceivedRequestsActivity">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -15,7 +16,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:title="Requests"
-            app:titleTextColor="@color/white" />
+            android:background="@color/navbar"
+            app:titleTextColor="@color/texts" />
 
     </com.google.android.material.appbar.AppBarLayout>
 

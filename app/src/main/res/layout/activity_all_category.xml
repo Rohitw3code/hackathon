@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/background_gradient"
     tools:context=".Categories.AllCategoryActivity">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -18,7 +19,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:title="Laper categories"
-            app:titleTextColor="@color/white" />
+            app:titleTextColor="@color/texts"
+            android:background="@color/navbar"/>
 
     </com.google.android.material.appbar.AppBarLayout>
 

@@ -4,11 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
     tools:context=".ui.chats.Chat.ChatActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/chat_app_bar_layout"
         android:layout_width="match_parent"
+        android:background="@color/navbar"
         android:layout_height="60sp">
 
         <RelativeLayout
@@ -22,7 +24,7 @@
                 android:layout_height="35sp"
                 android:layout_centerVertical="true"
                 android:layout_marginHorizontal="20sp"
-                android:src="@drawable/logo" />
+                android:src="@drawable/logoblue" />
 
             <TextView
                 android:id="@+id/chat_user_name_app_bar"
@@ -31,7 +33,7 @@
                 android:layout_centerVertical="true"
                 android:layout_toRightOf="@id/chat_user_image_app_bar"
                 android:text="Kevin"
-                android:textColor="@color/white"
+                android:textColor="@color/texts"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 

@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="15dp"
+    android:background="@drawable/background_gradient"
     tools:context=".Auth.AuthActivity">
 
     <ImageView
@@ -22,6 +23,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/texts"
             android:text="Welcome to "
             android:textSize="20dp" />
 
@@ -30,7 +32,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/poppins_medium"
             android:text="Laper"
-            android:textColor="@color/primary_color"
+            android:textColor="@color/special_color"
             android:textSize="20dp" />
 
     </LinearLayout>
@@ -50,6 +52,7 @@
         android:layout_gravity="center_horizontal"
         android:fontFamily="@font/poppins_medium"
         android:gravity="center_horizontal"
+        android:textColor="@color/texts"
         android:text="Need a little assist in your DEV journey?"
         android:textSize="16dp" />
 
@@ -67,7 +70,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/poppins_medium"
             android:text="congratulations"
-            android:textColor="@color/primary_color"
+            android:textColor="@color/special_color"
             android:textSize="16dp" />
 
         <TextView
@@ -75,6 +78,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/texts"
             android:text=" ,we have you covered"
             android:textSize="16dp" />
 
@@ -106,6 +110,7 @@
             android:layout_marginHorizontal="10sp"
             android:gravity="center_vertical"
             android:text="continue with google"
+            android:textColor="@color/texts"
             android:textSize="18dp" />
 
     </LinearLayout>
