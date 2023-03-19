@@ -2,8 +2,12 @@ package com.lapperapp.laper.settings
 
 import android.annotation.SuppressLint
 import android.os.Bundle
-import android.widget.*
+import android.widget.Button
+import android.widget.EditText
+import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
 import com.bumptech.glide.Glide
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.ktx.firestore
@@ -22,11 +26,20 @@ class SettingsActivity : AppCompatActivity() {
     private lateinit var userImage: CircleImageView
     private lateinit var email: TextView
     private lateinit var userId: TextView
+    private lateinit var toolbar: Toolbar
 
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_settings)
+
+        toolbar = findViewById(R.id.type_quest_toolbar)
+        setSupportActionBar(toolbar)
+        var actionBar = supportActionBar
+        if (actionBar != null) {
+            actionBar.setDisplayHomeAsUpEnabled(true)
+            actionBar.setHomeAsUpIndicator(R.drawable.ic_baseline_arrow_back_24)
+        }
 
         userImage = findViewById(R.id.setting_user_image)
         username = findViewById(R.id.setting_username)
